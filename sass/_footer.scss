@@ -1,0 +1,99 @@
+.footer{
+    margin-top: 133px;
+
+    .footer__wrapper{
+        border-top: 2px solid #C4C4C4;
+        
+        padding: 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__deck{
+          
+            p{
+                font-size: 24px;
+                font-family: "regular";
+                color:#8F95A5;
+                line-height: 36px;
+            }
+        }
+    }
+}
+@media (max-width:992px) {
+    .footer{
+        .footer__wrapper{
+            &__deck{
+              
+                p{
+                    font-size: 16px;
+                    font-family: "regular";
+                    color:#8F95A5;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:768px) {
+    .footer{
+      
+        .footer__wrapper{
+            &__deck{
+              
+                p{
+                    font-size: 13px;
+                    font-family: "regular";
+                    color:#8F95A5;
+                    line-height: 19px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:575px) {
+    .footer{
+      
+        .footer__wrapper{
+            &__deck{
+              
+                p{
+                    font-size: 12px;
+                    line-height: 18px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:500px) {
+    .footer{
+      
+        .footer__wrapper{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            &__deck{
+              
+                p{
+                    text-align: center;
+                    font-size: 11px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}
+.back__top {
+    width: 40px;
+    height: 40px;
+    background-color: #263238;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: .5s;
+}

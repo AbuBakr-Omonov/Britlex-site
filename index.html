@@ -5,22 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Britlex</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <header class="header">
+    <header class="header ">
         <nav class="container">
             <div class="header__wrapper">
                 <div class="header__wrapper__logo">
                     <img src="./assets/img/navbar-logo.svg" alt="britlex__Logo">
                 </div>
                 <ul class="header__wrapper__list">
-                    <li class=" header__wrapper__list__link"><a href="#"><span>Home</span></a></li>
-                    <li class=" header__wrapper__list__link"><a href="#"><span>Skills</span></a></li>
-                    <li class=" header__wrapper__list__link"><a href="#"><span>About Us</span></a></li>
-                    <li class=" header__wrapper__list__link"><a href="#"><span>Pricing</span></a></li>
-                    <li class=" header__wrapper__list__link"><a href="#"><span>Contacts</span></a></li>
+                    <li class=" header__wrapper__list__link"><a href="#hero"><span>Home</span></a></li>
+                    <li class=" header__wrapper__list__link"><a href="#skills"><span>Skills</span></a></li>
+                    <li class=" header__wrapper__list__link"><a href="#about"><span>About Us</span></a></li>
+                    <li class=" header__wrapper__list__link"><a href="#pricing"><span>Pricing</span></a></li>
+                    <li class=" header__wrapper__list__link"><a href="#contact"><span>Contacts</span></a></li>
                 </ul>
 
                 <div class="header__wrapper__btn">
@@ -35,9 +42,9 @@
     </header>
 
     <main class="main">
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container">
-                <div class="hero__wrapper">
+                <div class="hero__wrapper" >
                     <div class="hero__wrapper__content">
                         <div class="hero__wrapper__content__title">
                             <h1>
@@ -63,97 +70,134 @@
                 </div>
             </div>
         </section>
-
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container">
-                <div class="skills__title">
-                    <h1>
-                        Skills
-                    </h1>
+                <div class="skills__wrapper__main">
+                    <div class="skills__title">
+                        <h1>
+                            Skills
+                        </h1>
+                    </div>
+                    <div class="skills__wrapper">
+                        <div class="skills__wrapper__item" >
+                            <div class="skills__wrapper__item__img">
+                                <img src="./assets/img/skills-speaking.svg" alt="">
+                            </div>
+                            <div class="skills__wrapper__item__body">
+                                <div class="skills__wrapper__item__body__title">
+                                    <h2>
+                                        Speaking
+                                    </h2>
+                                </div>
+                                <div class="skills__wrapper__item__body__text">
+                                    <p>
+                                        Improve your English skills and confidence.
+                                        Live classes and interactive lessons online.
+                                        20% extra free for a limited time only <br> <br>
+                                        Learn English online and improve your
+                                        skills through our high-quality courses
+                                        and resources – all designed for adult language learners.
+                                    </p>
+                                </div>
+                                <div class="skills__wrapper__item__body__btn">
+                                    <button>
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__wrapper__item " >
+                            <div class="skills__wrapper__item__img">
+                                <img src="./assets/img/skills-writing.svg" alt="">
+                            </div>
+                            <div class="skills__wrapper__item__body">
+                                <div class="skills__wrapper__item__body__title">
+                                    <h2>
+                                        Writing
+                                    </h2>
+                                </div>
+                                <div class="skills__wrapper__item__body__text">
+                                    <p>
+                                        One of the most important and
+                                        extensive areas of natural
+                                        science, the science that studies
+                                        substances, also their composition
+                                    </p>
+                                </div>
+                                <div class="skills__wrapper__item__body__btn">
+                                    <button>
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__wrapper__item">
+                            <div class="skills__wrapper__item__img">
+                                <img src="./assets/img/sikills-reading.svg" alt="">
+                            </div>
+                            <div class="skills__wrapper__item__body">
+                                <div class="skills__wrapper__item__body__title">
+                                    <h2>
+                                        Reading
+                                    </h2>
+                                </div>
+                                <div class="skills__wrapper__item__body__text">
+                                    <p>
+                                        perception and response actions of the user
+                                        resulting from the use and/or upcoming use
+                                        of the product, system or service
+                                    </p>
+                                </div>
+                                <div class="skills__wrapper__item__body__btn">
+                                    <button>
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__wrapper__item">
+                            <div class="skills__wrapper__item__img">
+                                <img src="./assets/img/skills-listening.svg" alt="">
+                            </div>
+                            <div class="skills__wrapper__item__body">
+                                <div class="skills__wrapper__item__body__title">
+                                    <h2>
+                                        Listening
+                                    </h2>
+                                </div>
+                                <div class="skills__wrapper__item__body__text">
+                                    <p>
+                                        Here you can find activities to practise
+                                        your listening skills. Listening will help you
+                                        to improve your understanding
+                                    </p>
+                                </div>
+                                <div class="skills__wrapper__item__body__btn">
+                                    <button>
+                                        Learn more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills__wrapper">
-                    <div class="skills__wrapper__item">
-                        <div class="skills__wrapper__item__img">
-                            <img src="./assets/img/skills-speaking.svg" alt="">
-                        </div>
-                        <div class="skills__wrapper__item__body">
-                            <div class="skills__wrapper__item__body__title">
-                                <h2>
-                                    Speaking
-                                </h2>
-                            </div>
-                            <div class="skills__wrapper__item__body__text">
-                                <p>
-                                    Improve your English skills and confidence.
-                                    Live classes and interactive lessons online.
-                                    20% extra free for a limited time only
-                                </p>
-                                <p>
-                                    Learn English online and improve your
-                                    skills through our high-quality courses
-                                    and resources – all designed for adult language learners.
-                                </p>
-                            </div>
-                            <div class="skills__wrapper__item__body__btn">
-                                <button>
-                                    Learn more
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="skills__wrapper__item">
-                        <div class="skills__wrapper__item__img">
-                            <img src="./assets/img/skills-writing.svg" alt="">
-                        </div>
-                        <div class="skills__wrapper__item__body">
-                            <div class="skills__wrapper__item__body__title">
-                                <h2>
-                                    Writing
-                                </h2>
-                            </div>
-                            <div class="skills__wrapper__item__body__text">
-                                <p>
-                                    One of the most important and
-                                    extensive areas of natural
-                                    science, the science that studies
-                                    substances, also their composition
-                                </p>
-                            </div>
-                            <div class="skills__wrapper__item__body__btn">
-                                <button>
-                                    Learn more
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="skills__wrapper__item">3
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat vel consequuntur veritatis,
-                        praesentium ex fugiat dignissimos, quae aspernatur, labore hic nulla. Repellat voluptatum
-                        laudantium numquam, sunt necessitatibus voluptatibus similique quas.
-                    </div>
-                    <div class="skills__wrapper__item">4
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sed laboriosam nemo accusamus
-                        tenetur voluptatibus repellat totam fugit, veniam fuga reiciendis porro amet doloremque
-                        provident corrupti eveniet adipisci facilis sint!
-                    </div>
-                </div>
-
             </div>
-
         </section>
+      
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about__wrapper">
-                    <div class="about__wrapper__content">
+                    <div class="about__wrapper__content" >
                         <div class="about__wrapper__content__title">
                             <h3>About Us</h3>
                         </div>
                         <div class="about__wrapper__content__subtitle">
                             <p>
-                                The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.
+                                The model offers a framework for discussing problems related to the user's experience,
+                                as well as possible ways and means of solving them. Application development begins at
+                                the top level (strategy), where the future software product is described quite
+                                abstractly from the point of view of the expectations of both users and the customer.
                             </p>
                         </div>
                         <div class="about__wrapper__content__numbers">
@@ -172,19 +216,141 @@
                         </div>
                     </div>
 
-                    <div class="about__wrapper__img">
+                    <div class="about__wrapper__img" >
                         <div class="about__wrapper__img__title">
                             <p>About Us</p>
                         </div>
-                        <img src="./assets/img/about-img.svg" alt="">
+                        <img src="./assets/img/about-img.svg" alt="about us-img">
                     </div>
                 </div>
             </div>
         </section>
 
+       
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="pricing__wrapper">
+                    <div class="pricing__wrapper__title">
+                        <p>Pricing</p>
+                    </div>
+                    <div class="pricing__wrapper__plan">
+                        <div class="pricing__wrapper__plan__item" data-aos="fade-right" data-aos-duration="1100">
+                            <div class="pricing__wrapper__plan__item__img">
+                                <img src="./assets/img/pricing-self-study.svg" alt="pricing-girl-teacher">
+                            </div>
+                            <div class="pricing__wrapper__plan__item__body">
+                                <div class="pricing__wrapper__plan__item__body__title">
+                                    <p>
+                                        Self-study online course
+                                    </p>
+                                </div>
+                                <div class="pricing__wrapper__plan__item__body__subtitle">
+                                    <p>
+                                        Start learning English online in live classes
+                                        with qualified EC teachers and students
+                                        from all over the world.
+                                    </p>
+                                </div>
+                                <div class="pricing__wrapper__plan__item__body__price__wrapper">
+                                   <div class="pricing__wrapper__plan__item__body__price__wrapper__price">
+                                    <p><span> £5.99</span> per month</p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pricing__wrapper__plan__item" data-aos="fade-up" data-aos-duration="1100">
+                            <div class="pricing__wrapper__plan__item__img">
+                                <img src="./assets/img/pricing-live.svg" alt="pricing-girl-teacher">
+                            </div>
+                            <div class="pricing__wrapper__plan__item__body">
+                                <div class="pricing__wrapper__plan__item__body__title">
+                                    <p>
+                                        Live online classes
+                                    </p>
+                                </div>
+                                <div class="pricing__wrapper__plan__item__body__subtitle">
+                                    <p>
+                                        Interactive group classes with expert
+                                        teachers. Free 7-day trial
+                                    </p>
+                                </div>
+                                <div class="pricing__wrapper__plan__item__body__price__wrapper">
+                                    <div class="pricing__wrapper__plan__item__body__price__wrapper__price">
+                                     <p><span> £5.99</span> per month</p>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                        <div class="pricing__wrapper__plan__item" data-aos="fade-left" data-aos-duration="1100">
+                            <div class="pricing__wrapper__plan__item__img">
+                                <img src="./assets/img/pricing-personal.svg" alt="pricing-girl-teacher">
+                            </div>
+                            <div class="pricing__wrapper__plan__item__body">
+                                <div class="pricing__wrapper__plan__item__body__title">
+                                    <p>
+                                        Personal Tuition
+                                    </p>
+                                </div>
+                                <div class="pricing__wrapper__plan__item__body__subtitle">
+                                    <p>
+                                        Online one-to-one English tutoring – enjoy
+                                        our first session for only $1
+                                    </p>
+                                </div>
+                                <div class="pricing__wrapper__plan__item__body__price__wrapper">
+                                    <div class="pricing__wrapper__plan__item__body__price__wrapper__price">
+                                     <p><span> £5.99</span> per month</p>
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact__wrapper">
+                    <div class="contact__wrapper__img">
+                        <h2>Contact Us</h2>
+                        <img src="./assets/img/contact-img.svg" alt="contac us-boy">
+                    </div>
+                    <div class="contact__wrapper__body">
+                        <div class="contact__wrapper__body__title">
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div class="contact__wrapper__body__text">
+                            <p>Discover your current English level by taking our free online English test.Sign  up to our newsletter for learning tips and free resources</p>
+                        </div>
+                      
+                          <form action="" class="contact__wrapper__body__input">
+                            <input type="text" placeholder="Enter Your E-mail">
+                            <button>Subscribe</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
+
+    <footer class="footer" id footer>
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__wrapper__logo">
+                    <img src="./assets/img/navbar-logo.svg" alt="logo-britlex">
+                </div>
+                <div class="footer__wrapper__deck">
+                    <p>Terms and Conditions • Privacy Policy • Cookie Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back__top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </a>
+
 
 </body>
 
