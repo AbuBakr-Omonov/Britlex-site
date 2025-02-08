@@ -1,0 +1,134 @@
+.header {
+    padding: 20px 0;
+
+    // background-color: red;
+    &__wrapper {
+        // background-color: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+
+        &__list {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            &__link {
+                font-size: 20px;
+                font-family: "medium";
+                color: #263238;
+                transition: .4s;
+
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                    color: #000;
+
+                }
+            }
+        }
+
+        &__btn {
+            background-color: aqua;
+
+            button {
+                padding: 17px 57px;
+                font-family: "rugular";
+                font-size: 24px;
+                border-radius: 5px;
+                border: 2px solid #263238;
+                transition: .4s;
+                background-color: #fff;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #fff;
+                    background-color: #263238;
+                }
+            }
+        }
+
+        &__img{
+            display: none;  
+        }
+    }
+
+}
+
+    @media (max-width:990px) {
+        .header {
+            &__wrapper {
+                &__list {
+                    gap: 20px;
+
+                    &__link {
+                        font-size: 16px;
+                    }
+                }
+
+                &__btn {
+                    background-color: aqua;
+
+                    button {
+                        padding: 12px 40px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    @media (max-width:768px) {
+        .header {
+            &__wrapper {
+                &__list {
+                    display: none;
+                }
+
+                &__btn {
+                    display: none;
+                }
+                &__img{
+                    display: block;
+                }
+            }
+        }
+
+    }
+    @media (max-width:575px) {
+        .header {
+            &__wrapper {
+                &__list {
+                    display: none;
+                }
+
+                &__btn {
+                    display: none;
+                }
+                &__img{
+                    text-align: center;
+                    max-width: 42.35px;
+                }
+            }
+        }
+
+    }
+    @media (max-width:320px) {
+        .header {
+            &__wrapper {
+                &__list {
+                    display: none;
+                }
+
+                &__btn {
+                    display: none;
+                }
+                &__img{
+                    max-width: 33.53px;
+                }
+            }
+        }
+
+    }
